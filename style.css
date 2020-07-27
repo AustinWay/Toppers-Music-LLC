@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif !important;
+    background-color: #f7f7f7;
+}
+
+h2.ToppersMusicLLC {
+    vertical-align: middle;
+}
+
+img.topperDog {
+    width: 50%;
+    height: 70%;
+}
+
+img.hovering {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+}
+
+.imageSize {
+    width: auto;
+    height: 375px;
+}
+
+.cursive {
+    font-family: 'Pacifico', cursive;
+}
+
+.letterSpacing {
+    letter-spacing: 2px;
+}
+
+.homePageImageConfig {
+    padding: 0% 5% 0% 5%;
+}
+
+.solo {
+}
+
+.solo:hover .hovering {
+    opacity: 0.7;
+}
+
+.rectangle {
+    height: 10px;
+    width: 100%;
+    background-color: #f0d7b5; /* Light Brown */
+}
+
+footer.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*Styling for Google Maps API*/
+.mapouter {
+    height: 500px;
+    width: auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: auto;
+}
